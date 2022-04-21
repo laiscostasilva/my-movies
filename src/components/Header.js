@@ -1,10 +1,10 @@
+import { HeaderContainer } from "../styles/HeaderContainer";
 import { MainMenu } from "./MainMenu";
 
 //arrow function que retorna um conteúdo
 export const Header = () => (
-    <header>
+    <HeaderContainer>
         <h1>My Movies</h1>
-
         <MainMenu />
-    </header>
+    </HeaderContainer>
 );
